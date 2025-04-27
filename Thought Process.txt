@@ -1,0 +1,3 @@
+Login into Spotify Dashboard
+Due to New TOS of Spotify cannot use localhost in Redirect Urls -
+Downloading ngrok to bypass the issue
