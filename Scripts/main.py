@@ -3,8 +3,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import time
 
-client_id = "34d66b37608a4552b92856fc9ed0a9c9"
-client_secret = "eef96295684f400cab722e26f7f06d75"
+client_id = "" #Enter Client Id 
+client_secret = "" #Enter Client Secret , Both are provided in Spotify Dashboard for Developers
 
 sp = spotipy.Spotify(auth_manager = SpotifyOAuth ( client_id = client_id,
                                                    client_secret = client_secret,
@@ -13,8 +13,8 @@ sp = spotipy.Spotify(auth_manager = SpotifyOAuth ( client_id = client_id,
 
 con = c.connect(host = 'localhost',
                 user = 'root',
-                password = 'hello@123helloA',
-                database = 'Spotify_Project_27042025')
+                password = '',# Enter your password of mysql
+                database = '')#Put the name of your database
 cursor = con.cursor()
 
 
